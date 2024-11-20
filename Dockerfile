@@ -1,7 +1,7 @@
 # Usage: docker build .
 # Usage: docker run tpruvot/cpuminer-multi -a xevan --url=stratum+tcp://yiimp.ccminer.org:3739 --user=iGadPnKrdpW3pcdVC3aA77Ku4anrzJyaLG --pass=x
 
-FROM		ubuntu:14.04
+FROM		ubuntu:trusty-20190425
 MAINTAINER	Tanguy Pruvot <tanguy.pruvot@gmail.com>
 
 RUN		apt-get update -qq
